@@ -1,0 +1,64 @@
+body {
+    font-family: Roboto, sans-serif;
+}
+
+.navbar {
+    background-color: #dede3d;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #dede3d;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-planos .nav-link.active:hover {
+    color: #fff;
+}
+
+.navbar-toggler {
+    background-color: #fbfbee;
+}
+
+.section-title {
+    font-family: Pirata One, cursive;
+}
+
+.section-title span {
+    color: #dede3d;
+}
+
+#sobre-a-academia, #planos {
+    background-color: #fbfbee;
+}
+
+.text-colored {
+    color: #dede3d;
+}
+
+.nav-planos .nav-link.active,
+#fale-conosco button  {
+    background-color: blue;
+    color: #fff;
+}
+
+.nav-planos .nav-link:hover {
+    color: #dede3d;
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
